@@ -4,7 +4,7 @@ An attempt to solve a puzzle that asks the programmer to always output the earli
 
 
 ##Built in node.js
-I built this puzzle in node.js.  It can be run by navigating to the directory the repositiory is downloaded to, and calling 
+I built this puzzle in node.js.  It can be run by navigating to the directory the repositiory and calling:
 ###node moldybread.js -filename.txt
 
 A sample text file is present in the directory showing the proper formatting.
