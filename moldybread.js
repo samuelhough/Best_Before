@@ -1,5 +1,4 @@
 var fs = require('fs'),
-	repl = require('repl'),
 	BestDate = require('./bestDate.js');
 
 // When passed an filepath via -filepath.  Read the file and set it to the body variable
