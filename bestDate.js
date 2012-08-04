@@ -42,8 +42,10 @@ module.exports = (function(){
 		
 		dayArr = this.validateArr(dayArr, {
 				min: 1,
-				max: 31
+				max: 31,
+				log: true
 		});				
+		
 		if(dayArr.length < 1){ this.invalidDate(dateString); return; }	
 		
 		
@@ -65,10 +67,12 @@ module.exports = (function(){
 		if(undefined == config.min){ throw "Missing min" }
 		
 		for(var cur = 0; cur < arr.length; cur ++){
-			if(arr[cur].date > config.max || arr[cur].date < config.min){
-				arr.splice(cur, 1);			
-			}
+			if(arr[cur].date > config.max || arr[cur].date < config.min){				
+				arr.splice(cur, 1);	
+				cur -= 1;
+			} 
 		}
+			
 		return arr;
 	}
 	
