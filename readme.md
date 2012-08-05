@@ -5,7 +5,7 @@ The result should always be the earliest possible date, but if the date is impos
 
 
 ##Built in node.js
-I built this puzzle in node.js.  It can be run by navigating to the directory the repositiory and calling:
+I built this puzzle in node.js.  It can be run by navigating to the directory the repository and executing:
 ###node moldybread.js -filename.txt
 
 Input/Output:
