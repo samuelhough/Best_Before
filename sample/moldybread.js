@@ -1,5 +1,5 @@
 var fs = require('fs'),
-	BestDate = require('./bestDate.js');
+	BestDate = require('../lib/Best_Before.js');
 
 // When passed an filepath via -filepath.  Read the file and set it to the body variable
 if(process.argv.length > 2){
